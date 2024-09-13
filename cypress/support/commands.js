@@ -20,7 +20,7 @@ Cypress.Commands.add('loginToWordPress', () => {
     });
   });
 
-  Cypress.Commands.add('navigateToSwitchSettings', () => {
+Cypress.Commands.add('navigateToSwitchSettings', () => {
     const customizationUrl = 'https://wppool_sqa.com/wp-admin/admin.php?page=wp-dark-mode-settings&tab=customize';
   
     // Visit the Customization tab in WP Dark Mode settings
